@@ -1,3 +1,5 @@
+import { NavLink } from 'react-router-dom';
+
 import CustomButton from '../../components/custom-button';
 
 const Home = () => {
@@ -15,8 +17,9 @@ const Home = () => {
             earum minima in corporis magni architecto beatae fuga dolorem sit vero veniam
             suscipit eos, error deserunt? Neque eum ab consectetur?
           </p>
-          {/* <Cus id="go" text="GO" color="#db0000" /> */}
-          <CustomButton id="go" text="GO" color="#db0000" />
+          <NavLink to="/finder">
+            <CustomButton id="go" text="GO" color="#db0000" />
+          </NavLink>
         </div>
       </div>
     </>

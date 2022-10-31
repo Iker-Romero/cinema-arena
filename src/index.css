@@ -140,6 +140,11 @@ table {
   box-sizing: border-box;
 }
 
+h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
 img {
   /* Eliminates the extra size */
   display: block;
@@ -156,6 +161,7 @@ button {
   text-align: center;
   vertical-align: middle;
   width: min-content;
+  font-weight: bold;
 }
 
 /* NAVBAR */
