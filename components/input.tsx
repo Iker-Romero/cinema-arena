@@ -66,10 +66,12 @@ const Input = (props: { id: string; type: string }) => {
       >
         🔍
       </button>
-      <figure>
+      <figure className="search-result">
         <figcaption>{title}</figcaption>
-        <img src={poster} alt={`${title} poster`} />
-        <p>{plot}</p>
+        <div className="show-details">
+          <img src={poster} alt={`${title} poster`} />
+          <p>{plot}</p>
+        </div>
       </figure>
     </>
   );
