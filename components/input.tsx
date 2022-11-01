@@ -20,7 +20,7 @@ const Input = (props: { id: string; type: string }) => {
   const [show, setShow] = useState<ShowType>({
     Title: 'Spider-Man',
     Year: '2002',
-    Runtime: '03 May 2002',
+    Runtime: '121 min',
     Genre: 'Action, Adventure, Sci-Fi',
     Director: 'Sa Raimi',
     Plot: 'After being bitten by a genetically-modified spider, a shy teenager gains spider-like abilities that he uses to fight injustice as a masked superhero and face a vengeful enemy.',
@@ -30,25 +30,48 @@ const Input = (props: { id: string; type: string }) => {
   });
 
   useEffect(() => {
-    async () => {
+    (async () => {
+      console.log('ASYNC');
       const getShow = await getData(
         'http://www.omdbapi.com/?i=tt3896198&apikey=135bc54d',
         `&t=${show.Title}`,
       );
 
-      setShow(getShow());
-      console.log(show);
-    };
-  }, []);
+      setShow(getShow);
+    })();
+    console.log(show);
+  }, [show.Title]);
+  console.log(show);
+
+  const { Title: title, Plot: plot, Poster: poster } = show;
 
   return (
     <>
       <input
         type={type}
         id={id}
-        onChange={(e) => setShow({ ...show, Title: e.target.value })}
+        onChange={(e) => {
+          // (async () => {
+          //   console.log('ASYNC');
+          //   const getShow = await getData(
+          //     'http://www.omdbapi.com/?i=tt3896198&apikey=135bc54d',
+          //     `&t=${show.Title}`,
+          //   );
+
+          //   setShow(getShow);
+          // })();
+          console.log('change');
+          console.log({ ...show, Title: e.target.value });
+          setShow({ ...show, Title: e.target.value });
+          console.log(show);
+        }}
       />
-      <DisplayShow show={show} />
+      <figure>
+        <figcaption>{title}</figcaption>
+        <img src={poster} alt={`${title} poster`} />
+        <p>{plot}</p>
+      </figure>
+      {/* <DisplayShow show={show} /> */}
     </>
   );
 };
