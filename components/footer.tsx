@@ -1,5 +1,3 @@
-import React from 'react';
-
 import ExternalIcon from './external-icon';
 
 const Footer = () => {

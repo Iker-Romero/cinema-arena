@@ -157,12 +157,14 @@ img {
   display: block;
 }
 
-main {
-  padding: 1rem;
-}
-
 a {
   text-decoration: none;
+}
+
+input, button {
+  height: 3rem;
+  padding: 1rem;
+  border-radius: 1.5rem;
 }
 
 button {
@@ -176,6 +178,11 @@ button {
   border-radius: 1.5rem;
   width: max-content;
   font-weight: bold;
+}
+
+input {
+  min-width: 5rem;
+  max-width: 12rem;
 }
 
 /* NAVBAR */
@@ -210,7 +217,12 @@ nav img {
 
 main {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   flex: 1 0 auto;
+  padding: 1rem;
+  gap: 1rem;
 }
 
 /* FOOTER */
