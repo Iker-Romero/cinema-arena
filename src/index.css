@@ -138,6 +138,7 @@ table {
   background-color: black;
   color: white;
   box-sizing: border-box;
+  line-height: 1.5rem;
 }
 
 h1 {
@@ -154,13 +155,20 @@ main {
   padding: 1rem;
 }
 
+a {
+  text-decoration: none;
+}
+
 button {
+  display: inline-flex;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 0px;
   height: 3rem;
   padding: 1rem 2rem;
   border-radius: 1.5rem;
-  text-align: center;
-  vertical-align: middle;
-  width: min-content;
+  width: max-content;
   font-weight: bold;
 }
 
@@ -216,4 +224,7 @@ nav img {
 .home-description {
   min-width: 10rem;
   max-width: 30rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }

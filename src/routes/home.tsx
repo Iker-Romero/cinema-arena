@@ -12,11 +12,18 @@ const Home = () => {
           className="home-image"
         />
         <div>
-          <p className="home-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur tempora
-            earum minima in corporis magni architecto beatae fuga dolorem sit vero veniam
-            suscipit eos, error deserunt? Neque eum ab consectetur?
-          </p>
+          <div className="home-description">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur tempora
+              earum minima in corporis magni architecto beatae fuga dolorem sit vero
+              veniam suscipit eos, error deserunt? Neque eum ab consectetur?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa numquam
+              eligendi possimus adipisci illum deserunt atque nisi sint repudiandae quod
+              temporibus, corrupti sequi eveniet? Laborum a nesciunt dolor iure illum?
+            </p>
+          </div>
           <NavLink to="/finder">
             <Button id="go" text="GO" color="#db0000" />
           </NavLink>

@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 
 import getData from '../utilities/get-data';
-import DisplayShow from './display-show';
 
 export type ShowType = {
   Title: string;
@@ -29,6 +28,8 @@ const Input = (props: { id: string; type: string }) => {
     Type: 'movie',
   });
 
+  const [inputValue, setInputValue] = useState('');
+
   useEffect(() => {
     (async () => {
       console.log('ASYNC');
@@ -40,7 +41,7 @@ const Input = (props: { id: string; type: string }) => {
       setShow(getShow);
     })();
     console.log(show);
-  }, [show.Title]);
+  }, [show.Title]); // We access to the property instead of the object to avoid infinite loop
   console.log(show);
 
   const { Title: title, Plot: plot, Poster: poster } = show;
@@ -51,27 +52,25 @@ const Input = (props: { id: string; type: string }) => {
         type={type}
         id={id}
         onChange={(e) => {
-          // (async () => {
-          //   console.log('ASYNC');
-          //   const getShow = await getData(
-          //     'http://www.omdbapi.com/?i=tt3896198&apikey=135bc54d',
-          //     `&t=${show.Title}`,
-          //   );
-
-          //   setShow(getShow);
-          // })();
           console.log('change');
-          console.log({ ...show, Title: e.target.value });
-          setShow({ ...show, Title: e.target.value });
-          console.log(show);
+          // console.log({ ...show, Title: e.target.value });
+          // setShow({ ...show, Title: e.target.value });
+          // console.log(show);
+          setInputValue(e.target.value);
         }}
       />
+      <button
+        onClick={() => {
+          setShow({ ...show, Title: inputValue });
+        }}
+      >
+        🔍
+      </button>
       <figure>
         <figcaption>{title}</figcaption>
         <img src={poster} alt={`${title} poster`} />
         <p>{plot}</p>
       </figure>
-      {/* <DisplayShow show={show} /> */}
     </>
   );
 };

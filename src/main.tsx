@@ -5,6 +5,7 @@ import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, Outlet, Route, RouterProvider } from 'react-router-dom';
 
 import ErrorPage from './error-page';
+import ShowForm from './routes/add-show';
 import Finder from './routes/finder';
 import Home from './routes/home';
 import Root from './routes/root';
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
       {
         path: '/finder',
         element: <Finder />,
+      },
+      {
+        path: 'show-form',
+        element: <ShowForm />,
       },
       {
         path: '*',
