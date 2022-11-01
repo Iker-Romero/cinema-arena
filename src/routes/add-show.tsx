@@ -2,7 +2,12 @@ const ShowForm = () => {
   return (
     <>
       <h1>Add a New Show</h1>
-      <p></p>
+      {/* <form action="">
+        <div>
+          <label htmlFor=""></label>
+          <input type="text" id="" />
+        </div>
+      </form> */}
     </>
   );
 };
