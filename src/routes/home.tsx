@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
 
-import CustomButton from '../../components/custom-button';
+import Button from '../../components/button';
 
 const Home = () => {
   return (
@@ -18,7 +18,7 @@ const Home = () => {
             suscipit eos, error deserunt? Neque eum ab consectetur?
           </p>
           <NavLink to="/finder">
-            <CustomButton id="go" text="GO" color="#db0000" />
+            <Button id="go" text="GO" color="#db0000" />
           </NavLink>
         </div>
       </div>

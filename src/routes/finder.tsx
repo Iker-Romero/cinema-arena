@@ -1,3 +1,4 @@
+import DisplayShow from '../../components/display-show';
 import Input from '../../components/input';
 import Label from '../../components/label';
 

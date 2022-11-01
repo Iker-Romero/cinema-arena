@@ -1,11 +1,9 @@
-import React from 'react';
-
-const CustomButton = (props: { id: string; text: string; color: string }) => {
+const Button = (props: { id: string; text: string; color: string }) => {
   const { id, text, color } = props;
 
   const buttonStyles = {
     backgroundColor: color,
-  } as React.CSSProperties;
+  };
 
   return (
     <button id={id} style={buttonStyles}>
@@ -14,4 +12,4 @@ const CustomButton = (props: { id: string; text: string; color: string }) => {
   );
 };
 
-export default CustomButton;
+export default Button;
