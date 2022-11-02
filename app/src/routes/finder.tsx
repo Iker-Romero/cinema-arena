@@ -14,6 +14,7 @@ export type ShowType = {
   Plot: string;
   Poster: string;
   Type: string;
+  BoxOffice: string;
 };
 
 const Finder = () => {
@@ -27,6 +28,7 @@ const Finder = () => {
     Poster:
       'https://m.media-amazon.com/images/M/MV5BZDEyN2NhMjgtMjdhNi00MmNlLWE5YTgtZGE4MzNjMTRlMGEwXkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_SX300.jpg',
     Type: 'movie',
+    BoxOffice: '$407,022,860',
   });
 
   const [inputValue, setInputValue] = useState('');
