@@ -18,6 +18,7 @@ const Finder = () => {
       'https://m.media-amazon.com/images/M/MV5BZDEyN2NhMjgtMjdhNi00MmNlLWE5YTgtZGE4MzNjMTRlMGEwXkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_SX300.jpg',
     Type: 'movie',
     BoxOffice: '$407,022,860',
+    id: 0,
   });
 
   const [inputValue, setInputValue] = useState('');

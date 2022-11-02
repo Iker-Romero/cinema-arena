@@ -1,4 +1,4 @@
-import { ShowType } from '../src/routes/finder';
+import { ShowType } from '../src/API/api';
 
 const DisplayShow = (props: { show: ShowType }) => {
   const { show } = props;

@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 import DisplayShow from '../../components/display-show';
 import { postShow, ShowType } from '../API/api';
@@ -15,6 +16,7 @@ const ShowForm = () => {
       'https://m.media-amazon.com/images/M/MV5BZDEyN2NhMjgtMjdhNi00MmNlLWE5YTgtZGE4MzNjMTRlMGEwXkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_SX300.jpg',
     Type: 'movie',
     BoxOffice: '$407,022,860',
+    id: 0,
   });
 
   return (
@@ -90,13 +92,15 @@ const ShowForm = () => {
             />
           </div>
         </form>
-        <button
-          className="submit-form"
-          style={{ backgroundColor: '#db0000' }}
-          onClick={() => postShow(show)}
-        >
-          CREATE
-        </button>
+        <Link to="/saved">
+          <button
+            className="submit-form"
+            style={{ backgroundColor: '#db0000' }}
+            onClick={() => postShow(show)}
+          >
+            CREATE
+          </button>
+        </Link>
       </section>
       <section className="show-preview-section">
         <h2>Preview</h2>

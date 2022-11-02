@@ -1,85 +1,52 @@
 {
   "shows": [
     {
+      "Title": "q",
+      "Year": "w",
+      "Runtime": "e",
+      "Genre": "q",
+      "Director": "e",
+      "Plot": "r",
+      "Poster": "q",
+      "Type": "r",
+      "BoxOffice": "$407,022,860",
       "id": 1
     },
     {
+      "Title": "Spider-Man",
+      "Year": "2002",
+      "Runtime": "121 min",
+      "Genre": "Action, Adventure, Sci-Fi",
+      "Director": "Sa Raimi",
+      "Plot": "After being bitten by a genetically-modified spider, a shy teenager gains spider-like abilities that he uses to fight injustice as a masked superhero and face a vengeful enemy.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZDEyN2NhMjgtMjdhNi00MmNlLWE5YTgtZGE4MzNjMTRlMGEwXkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_SX300.jpg",
+      "Type": "movie",
+      "BoxOffice": "$407,022,860",
       "id": 2
     },
     {
-      "Title": "sdff",
-      "Year": "dd",
-      "Runtime": "d",
-      "Genre": "d",
-      "Director": "d",
-      "Plot": "d",
-      "Poster": "d",
-      "Type": "d",
+      "Title": "Spider-Man",
+      "Year": "2002",
+      "Runtime": "121 min",
+      "Genre": "Action, Adventure, Sci-Fi",
+      "Director": "Sa Raimi",
+      "Plot": "After being bitten by a genetically-modified spider, a shy teenager gains spider-like abilities that he uses to fight injustice as a masked superhero and face a vengeful enemy.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZDEyN2NhMjgtMjdhNi00MmNlLWE5YTgtZGE4MzNjMTRlMGEwXkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_SX300.jpg",
+      "Type": "movie",
       "BoxOffice": "$407,022,860",
       "id": 3
     },
     {
-      "Title": "sdff",
-      "Year": "dd",
-      "Runtime": "d",
-      "Genre": "d",
-      "Director": "d",
-      "Plot": "d",
-      "Poster": "d",
-      "Type": "d",
+      "Title": "Spider-Man",
+      "Year": "2002",
+      "Runtime": "121 min",
+      "Genre": "Action, Adventure, Sci-Fi",
+      "Director": "Sa Raimi",
+      "Plot": "After being bitten by a genetically-modified spider, a shy teenager gains spider-like abilities that he uses to fight injustice as a masked superhero and face a vengeful enemy.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZDEyN2NhMjgtMjdhNi00MmNlLWE5YTgtZGE4MzNjMTRlMGEwXkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_SX300.jpg",
+      "Type": "movie",
       "BoxOffice": "$407,022,860",
       "id": 4
-    },
-    {
-      "Title": "sdff",
-      "Year": "dd",
-      "Runtime": "d",
-      "Genre": "d",
-      "Director": "d",
-      "Plot": "d",
-      "Poster": "d",
-      "Type": "d",
-      "BoxOffice": "$407,022,860",
-      "id": 5
-    },
-    {
-      "Title": "sdff",
-      "Year": "dd",
-      "Runtime": "d",
-      "Genre": "d",
-      "Director": "d",
-      "Plot": "d",
-      "Poster": "d",
-      "Type": "d",
-      "BoxOffice": "$407,022,860",
-      "id": 6
-    },
-    {
-      "Title": "ds",
-      "Year": "s",
-      "Runtime": "a",
-      "Genre": "t",
-      "Director": "t",
-      "Plot": "q",
-      "Poster": "q",
-      "Type": "w",
-      "BoxOffice": "$407,022,860",
-      "id": 7
-    },
-    {
-      "id": 8
-    },
-    {
-      "Title": "ds",
-      "Year": "s",
-      "Runtime": "a",
-      "Genre": "t",
-      "Director": "t",
-      "Plot": "q",
-      "Poster": "q",
-      "Type": "w",
-      "BoxOffice": "$407,022,860",
-      "id": 9
     }
   ]
 }

@@ -8,6 +8,7 @@ import ErrorPage from './error-page';
 import Finder from './routes/finder';
 import Home from './routes/home';
 import Root from './routes/root';
+import Saved from './routes/saved';
 import ShowForm from './routes/show-form';
 
 const router = createBrowserRouter([
@@ -21,12 +22,16 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: '/finder',
+        path: 'finder',
         element: <Finder />,
       },
       {
         path: 'show-form',
         element: <ShowForm />,
+      },
+      {
+        path: 'saved',
+        element: <Saved />,
       },
       {
         path: '*',

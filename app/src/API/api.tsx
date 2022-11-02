@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-export type ShowType = {
+export interface ShowType {
   Title: string;
   Year: string;
   Runtime: string;
@@ -10,20 +10,23 @@ export type ShowType = {
   Poster: string;
   Type: string;
   BoxOffice: string;
-};
+  id: number;
+}
 
 type ServerResponse = {
   data: ShowType[];
 };
 
-export const getShows = async () => {
+export const getShows = async (): Promise<ShowType[] | undefined> => {
   try {
-    const { data } = await axios.get<ServerResponse>('http://localhost:8080/', {
+    const { data } = await axios.get('http://localhost:8080/shows', {
       headers: {
         Accept: 'application/json',
         'Content-Type': 'aplication/json',
       },
     });
+
+    console.log(data);
 
     return data;
   } catch (error) {
