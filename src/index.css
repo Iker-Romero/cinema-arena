@@ -147,9 +147,17 @@ table {
   min-height: 100vh;
 }
 
+h1, h2 {
+  text-align: center;
+  font-weight: bold;
+}
+
 h1 {
   font-size: 2rem;
-  text-align: center;
+}
+
+h2 {
+  font-size: 1.5rem;
 }
 
 img {
@@ -164,8 +172,8 @@ a {
 input,
 button {
   height: 3rem;
-  padding: 1rem;
   border-radius: 1.5rem;
+  padding: 1rem;
 }
 
 button {
@@ -175,7 +183,6 @@ button {
   align-items: center;
   border-bottom: 0px;
   height: 3rem;
-  border-radius: 1.5rem;
   width: max-content;
   font-weight: bold;
 }
@@ -223,6 +230,8 @@ main {
   flex: 1 0 auto;
   padding: 1rem;
   gap: 1rem;
+  max-width: 60rem;
+  margin: 0 auto;
 }
 
 /* FOOTER */
@@ -290,14 +299,12 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  max-width: 50rem;
 }
 
 .search-result > figcaption {
-  font-size: 1.5rem;
   font-weight: bold;
   text-align: center;
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 .show-details {

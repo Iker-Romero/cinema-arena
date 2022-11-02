@@ -5,10 +5,10 @@ import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, Outlet, Route, RouterProvider } from 'react-router-dom';
 
 import ErrorPage from './error-page';
-import ShowForm from './routes/add-show';
 import Finder from './routes/finder';
 import Home from './routes/home';
 import Root from './routes/root';
+import ShowForm from './routes/show-form';
 
 const router = createBrowserRouter([
   {

@@ -1,0 +1,99 @@
+import { useState } from 'react';
+
+import DisplayShow from '../../components/display-show';
+
+const ShowForm = () => {
+  const [show, setShow] = useState({});
+
+  console.log(show);
+
+  return (
+    <>
+      <h1>Add a New Show</h1>
+      <section className="add-show-section">
+        <h2>Form</h2>
+        <form action="">
+          <div>
+            <label htmlFor="title">Title</label>
+            <input
+              type="text"
+              id="title"
+              onChange={(e) => {
+                setShow({ ...show, Title: e.target.value });
+              }}
+            />
+            <label htmlFor="year">Year</label>
+            <input
+              type="text"
+              id="year"
+              onChange={(e) => {
+                setShow({ ...show, Year: e.target.value });
+              }}
+            />
+            <label htmlFor="runtime">Runtime</label>
+            <input
+              type="text"
+              id="runtime"
+              onChange={(e) => {
+                setShow({ ...show, Runtime: e.target.value });
+              }}
+            />
+            <label htmlFor="genre">Genre</label>
+            <input
+              type="text"
+              id="genre"
+              onChange={(e) => {
+                setShow({ ...show, Genre: e.target.value });
+              }}
+            />
+            <label htmlFor="director">Director</label>
+            <input
+              type="text"
+              id="director"
+              onChange={(e) => {
+                setShow({ ...show, Director: e.target.value });
+              }}
+            />
+            <label htmlFor="plot">Plot</label>
+            <input
+              type="text"
+              id="plot"
+              onChange={(e) => {
+                setShow({ ...show, Plot: e.target.value });
+              }}
+            />
+            <label htmlFor="poster">Poster</label>
+            <input
+              type="text"
+              id="poster"
+              onChange={(e) => {
+                setShow({ ...show, Poster: e.target.value });
+              }}
+            />
+            <label htmlFor="type">Type</label>
+            <input
+              type="text"
+              id="type"
+              onChange={(e) => {
+                setShow({ ...show, Type: e.target.value });
+              }}
+            />
+          </div>
+        </form>
+        <button
+          className="submit-form"
+          style={{ backgroundColor: '#db0000' }}
+          // onClick={() => {}}
+        >
+          CREATE
+        </button>
+      </section>
+      <section className="show-preview-section">
+        <h2>Preview</h2>
+        <DisplayShow />
+      </section>
+    </>
+  );
+};
+
+export default ShowForm;
