@@ -33,7 +33,6 @@ const Finder = () => {
 
   useEffect(() => {
     (async () => {
-      console.log('ASYNC');
       const getShow = await getData(
         'http://www.omdbapi.com/?i=tt3896198&apikey=135bc54d',
         `&t=${show.Title}`,
@@ -41,9 +40,7 @@ const Finder = () => {
 
       setShow(getShow);
     })();
-    console.log(show);
   }, [show.Title]); // We access to the property instead of the object to avoid infinite loop
-  console.log(show);
 
   const { Title: title, Plot: plot, Poster: poster } = show;
 

@@ -16,8 +16,6 @@ const ShowForm = () => {
     Type: 'movie',
   });
 
-  console.log(show);
-
   return (
     <>
       <h1>Add a New Show</h1>

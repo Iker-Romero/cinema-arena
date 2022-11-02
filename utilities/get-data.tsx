@@ -12,7 +12,6 @@ const getData = async (url: string, target: string | number) => {
 
     const rawData = await fetch(url + target);
     const jsonData = await rawData.json();
-    console.log(jsonData);
     return jsonData;
   } catch (error) {
     console.log(error);
