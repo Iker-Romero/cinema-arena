@@ -4,18 +4,7 @@ import { NavLink } from 'react-router-dom';
 import Button from '../../components/button';
 import Label from '../../components/label';
 import getData from '../../utilities/get-data';
-
-export type ShowType = {
-  Title: string;
-  Year: string;
-  Runtime: string;
-  Genre: string;
-  Director: string;
-  Plot: string;
-  Poster: string;
-  Type: string;
-  BoxOffice: string;
-};
+import { ShowType } from '../API/api';
 
 const Finder = () => {
   const [show, setShow] = useState<ShowType>({

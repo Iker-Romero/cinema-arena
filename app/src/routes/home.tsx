@@ -5,6 +5,7 @@ import Button from '../../components/button';
 const Home = () => {
   return (
     <>
+      <h1>📽️ WELCOME! 🎬</h1>
       <div className="front-page">
         <img
           src="https://res.cloudinary.com/dvwva99mi/image/upload/v1667232937/Cinema-Arena/cinema.png"

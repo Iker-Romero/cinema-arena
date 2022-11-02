@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 import DisplayShow from '../../components/display-show';
-import { ShowType } from './finder';
+import { postShow, ShowType } from '../API/api';
 
 const ShowForm = () => {
   const [show, setShow] = useState<ShowType>({
@@ -14,6 +14,7 @@ const ShowForm = () => {
     Poster:
       'https://m.media-amazon.com/images/M/MV5BZDEyN2NhMjgtMjdhNi00MmNlLWE5YTgtZGE4MzNjMTRlMGEwXkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_SX300.jpg',
     Type: 'movie',
+    BoxOffice: '$407,022,860',
   });
 
   return (
@@ -92,7 +93,7 @@ const ShowForm = () => {
         <button
           className="submit-form"
           style={{ backgroundColor: '#db0000' }}
-          // onClick={() => {}}
+          onClick={() => postShow(show)}
         >
           CREATE
         </button>

@@ -1,1 +1,85 @@
-{ "shows": [] }
+{
+  "shows": [
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "Title": "sdff",
+      "Year": "dd",
+      "Runtime": "d",
+      "Genre": "d",
+      "Director": "d",
+      "Plot": "d",
+      "Poster": "d",
+      "Type": "d",
+      "BoxOffice": "$407,022,860",
+      "id": 3
+    },
+    {
+      "Title": "sdff",
+      "Year": "dd",
+      "Runtime": "d",
+      "Genre": "d",
+      "Director": "d",
+      "Plot": "d",
+      "Poster": "d",
+      "Type": "d",
+      "BoxOffice": "$407,022,860",
+      "id": 4
+    },
+    {
+      "Title": "sdff",
+      "Year": "dd",
+      "Runtime": "d",
+      "Genre": "d",
+      "Director": "d",
+      "Plot": "d",
+      "Poster": "d",
+      "Type": "d",
+      "BoxOffice": "$407,022,860",
+      "id": 5
+    },
+    {
+      "Title": "sdff",
+      "Year": "dd",
+      "Runtime": "d",
+      "Genre": "d",
+      "Director": "d",
+      "Plot": "d",
+      "Poster": "d",
+      "Type": "d",
+      "BoxOffice": "$407,022,860",
+      "id": 6
+    },
+    {
+      "Title": "ds",
+      "Year": "s",
+      "Runtime": "a",
+      "Genre": "t",
+      "Director": "t",
+      "Plot": "q",
+      "Poster": "q",
+      "Type": "w",
+      "BoxOffice": "$407,022,860",
+      "id": 7
+    },
+    {
+      "id": 8
+    },
+    {
+      "Title": "ds",
+      "Year": "s",
+      "Runtime": "a",
+      "Genre": "t",
+      "Director": "t",
+      "Plot": "q",
+      "Poster": "q",
+      "Type": "w",
+      "BoxOffice": "$407,022,860",
+      "id": 9
+    }
+  ]
+}
