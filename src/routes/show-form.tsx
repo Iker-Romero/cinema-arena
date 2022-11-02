@@ -1,9 +1,20 @@
 import { useState } from 'react';
 
 import DisplayShow from '../../components/display-show';
+import { ShowType } from './finder';
 
 const ShowForm = () => {
-  const [show, setShow] = useState({});
+  const [show, setShow] = useState<ShowType>({
+    Title: 'Spider-Man',
+    Year: '2002',
+    Runtime: '121 min',
+    Genre: 'Action, Adventure, Sci-Fi',
+    Director: 'Sa Raimi',
+    Plot: 'After being bitten by a genetically-modified spider, a shy teenager gains spider-like abilities that he uses to fight injustice as a masked superhero and face a vengeful enemy.',
+    Poster:
+      'https://m.media-amazon.com/images/M/MV5BZDEyN2NhMjgtMjdhNi00MmNlLWE5YTgtZGE4MzNjMTRlMGEwXkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_SX300.jpg',
+    Type: 'movie',
+  });
 
   console.log(show);
 
@@ -90,7 +101,7 @@ const ShowForm = () => {
       </section>
       <section className="show-preview-section">
         <h2>Preview</h2>
-        <DisplayShow />
+        <DisplayShow show={show} />
       </section>
     </>
   );
