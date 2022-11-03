@@ -2,7 +2,7 @@ import './index.css';
 
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { createBrowserRouter, Outlet, Route, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import ErrorPage from './error-page';
 import Finder from './routes/finder';
@@ -16,7 +16,6 @@ const router = createBrowserRouter([
   {
     path: '/',
     element: <Root />,
-    // errorElement: <ErrorPage />,
     children: [
       {
         path: '',
