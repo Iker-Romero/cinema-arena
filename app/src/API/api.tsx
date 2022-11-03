@@ -13,10 +13,6 @@ export interface ShowType {
   id: number;
 }
 
-type ServerResponse = {
-  data: ShowType[];
-};
-
 export const getShows = async (): Promise<ShowType[] | undefined> => {
   try {
     const { data } = await axios.get('http://localhost:8080/shows', {
@@ -25,9 +21,6 @@ export const getShows = async (): Promise<ShowType[] | undefined> => {
         'Content-Type': 'aplication/json',
       },
     });
-
-    console.log(data);
-
     return data;
   } catch (error) {
     console.log(error);

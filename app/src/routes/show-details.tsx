@@ -17,7 +17,6 @@ const ShowDetails = () => {
     })();
   }, []);
 
-  // if (show === undefined) return;
   if (show !== undefined) {
     const { Title, Year, Runtime, Genre, Director, Plot, Poster, Type, BoxOffice } = show;
 
