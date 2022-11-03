@@ -387,3 +387,29 @@ footer {
 .shows-container img {
   width: 12rem;
 }
+
+/* SHOW DETAILS */
+
+.show-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.show-details > div {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.details-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.details-container > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
