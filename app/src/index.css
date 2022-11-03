@@ -177,6 +177,10 @@ button {
   padding: 1rem;
 }
 
+textarea {
+  padding: 1rem;
+}
+
 button {
   display: inline-flex;
   text-decoration: none;
@@ -369,4 +373,17 @@ footer {
   align-items: center;
   min-width: 20rem;
   width: min-content;
+}
+
+/* SAVED SHOWS */
+
+.shows-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.shows-container img {
+  width: 12rem;
 }
