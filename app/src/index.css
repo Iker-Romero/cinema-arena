@@ -210,6 +210,13 @@ nav {
   text-align: center;
 }
 
+nav > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
 nav a {
   all: unset;
   color: #db0000;
@@ -217,6 +224,10 @@ nav a {
 
 nav a:hover {
   cursor: pointer;
+}
+
+.saved-navbar {
+  color: white;
 }
 
 nav img {
@@ -333,7 +344,7 @@ footer {
 
 .show-form-container {
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 2rem;

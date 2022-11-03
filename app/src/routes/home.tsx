@@ -26,7 +26,7 @@ const Home = () => {
             </p>
           </div>
           <NavLink to="/finder">
-            <Button id="go" text="GO" color="#db0000" />
+            <Button id="start" text="START YOUR SEARCH" color="#db0000" />
           </NavLink>
         </div>
       </div>

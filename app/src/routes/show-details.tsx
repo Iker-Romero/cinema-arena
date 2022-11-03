@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 
 import { getShow } from '../API/api';
+import ErrorPage from '../error-page';
 
 const ShowDetails = () => {
   const [show, setShow] = useState();
@@ -40,7 +41,7 @@ const ShowDetails = () => {
       </div>
     );
   }
-  return <h1>Loading...</h1>;
+  return <ErrorPage />;
 };
 
 export default ShowDetails;
