@@ -59,7 +59,7 @@ const Finder = () => {
       </div>
       <figure className="search-result">
         <figcaption>{title}</figcaption>
-        <div className="show-details">
+        <div className="show-info">
           <img src={poster} alt={`${title} poster`} />
           <p>{plot}</p>
         </div>

@@ -312,19 +312,24 @@ footer {
   margin-top: 2rem;
 }
 
-.show-details {
+.show-info {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
   justify-content: center;
 }
 
-.show-details > img {
+.show-info > img {
   max-width: 12rem;
   max-height: 40rem;
 }
 
-/* SHIW FORM */
+.show-info > p {
+  min-width: 12rem;
+  width: min-content;
+}
+
+/* SHOW FORM */
 
 .show-form-container {
   display: flex;
