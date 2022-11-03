@@ -1,3 +1,87 @@
 {
-  "shows": []
+  "shows": [
+    {
+      "Title": "Mr. Robot",
+      "Year": "2015–2019",
+      "Runtime": "49 min",
+      "Genre": "Crime, Drama, Thriller",
+      "Director": "Sam Esmail",
+      "Plot": "Elliot, a brilliant but highly unstable young cyber-security engineer and vigilante hacker, becomes a key figure in a complex game of global dominance when he and his shadowy allies try to take down the corrupt corporation he work...",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BM2QyNDIzOGMtNThhNS00NmUwLWI0ZjUtZjdkN2I1OTRjZWQ3XkEyXkFqcGdeQXVyNzQ1ODk3MTQ@._V1_SX300.jpg",
+      "Type": "series",
+      "BoxOffice": "$ Unknown",
+      "id": 1
+    },
+    {
+      "Title": "Interstellar",
+      "Year": "2014",
+      "Runtime": "169 min",
+      "Genre": "Adventure, Drama, Sci-Fi",
+      "Director": "Christopher Nolan",
+      "Plot": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+      "Type": "movie",
+      "BoxOffice": "$188,020,017",
+      "id": 2
+    },
+    {
+      "Title": "Iron Man",
+      "Year": "2008",
+      "Runtime": "126 min",
+      "Genre": "Action, Adventure, Sci-Fi",
+      "Director": "Jon Favreau",
+      "Plot": "After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTczNTI2ODUwOF5BMl5BanBnXkFtZTcwMTU0NTIzMw@@._V1_SX300.jpg",
+      "Type": "movie",
+      "BoxOffice": "$319,034,126",
+      "id": 3
+    },
+    {
+      "Title": "Black Mirror",
+      "Year": "2011–2019",
+      "Runtime": "60 min",
+      "Genre": "Drama, Mystery, Sci-Fi",
+      "Director": "Charlie Brooker",
+      "Plot": "An anthology series exploring a twisted, high-tech multiverse where humanity's greatest innovations and darkest instincts collide.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYTM3YWVhMDMtNjczMy00NGEyLWJhZDctYjNhMTRkNDE0ZTI1XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
+      "Type": "series",
+      "BoxOffice": "$ Unknown",
+      "id": 4
+    },
+    {
+      "Title": "Breaking Bad",
+      "Year": "2008–2013",
+      "Runtime": "49 min",
+      "Genre": "Crime, Drama, Thriller",
+      "Director": "Vince Gilligan",
+      "Plot": "A high school chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine in order to secure his family's future.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNDkyZThhNmMtZDBjYS00NDBmLTlkMjgtNWM2ZWYzZDQxZWU1XkEyXkFqcGdeQXVyMTMzNDExODE5._V1_SX300.jpg",
+      "Type": "series",
+      "BoxOffice": "$ Unknown",
+      "id": 5
+    },
+    {
+      "Title": "Spider-Man",
+      "Year": "2002",
+      "Runtime": "121 min",
+      "Genre": "Action, Adventure, Sci-Fi",
+      "Director": "Sa Raimi",
+      "Plot": "After being bitten by a genetically-modified spider, a shy teenager gains spider-like abilities that he uses to fight injustice as a masked superhero and face a vengeful enemy.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZDEyN2NhMjgtMjdhNi00MmNlLWE5YTgtZGE4MzNjMTRlMGEwXkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_SX300.jpg",
+      "Type": "movie",
+      "BoxOffice": "$407,022,860",
+      "id": 6
+    },
+    {
+      "Title": "Money Heist",
+      "Year": "2017–2021",
+      "Genre": "Action, Crime, Drama",
+      "Director": "Álex Pina",
+      "Plot": "An unusual group of robbers attempt to carry out the most perfect robbery in Spanish history - stealing 2.4 billion euros from the Royal Mint of Spain.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BODI0ZTljYTMtODQ1NC00NmI0LTk1YWUtN2FlNDM1MDExMDlhXkEyXkFqcGdeQXVyMTM0NTUzNDIy._V1_SX300.jpg",
+      "Type": "series",
+      "BoxOffice": "$ Unknown",
+      "id": 7
+    }
+  ]
 }
