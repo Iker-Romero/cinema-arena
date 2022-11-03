@@ -25,7 +25,7 @@ const ShowForm = () => {
       <div className="show-form-container">
         <section className="show-form-section">
           <h2>Form</h2>
-          <form action="">
+          <form action="" autoComplete="off">
             <div>
               <label htmlFor="title">Title</label>
               <input

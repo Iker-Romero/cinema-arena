@@ -47,6 +47,7 @@ const Finder = () => {
           onChange={(e) => {
             setInputValue(e.target.value);
           }}
+          autoComplete="off"
         />
         <button
           className="search-button"
