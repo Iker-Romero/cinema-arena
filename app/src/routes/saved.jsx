@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 import { getShows } from '../API/api';
 
@@ -10,7 +11,7 @@ const Saved = () => {
       try {
         const jsonShows = await getShows();
         console.log(jsonShows);
-        setShows(jsonShows);
+        setShows(jsonShows); // Typescript error
 
         console.log(jsonShows);
       } catch (error) {
@@ -24,22 +25,13 @@ const Saved = () => {
       <h1>Saved Shows</h1>
       <div className="shows-container">
         {shows.map((show) => {
-          const {
-            Title,
-            // Year,
-            // Runtime,
-            // Genre,
-            // Director,
-            // Plot,
-            Poster,
-            // Type,
-            // BoxOffice,
-            id,
-          } = show;
+          const { Title, Poster, id } = show;
           return (
-            <section key={id} className="show-card">
-              <img src={Poster} alt={Title} />
-            </section>
+            <Link to={`/saved/${id}`} key={id}>
+              <section className="show-card">
+                <img src={Poster} alt={Title} />
+              </section>
+            </Link>
           );
         })}
       </div>

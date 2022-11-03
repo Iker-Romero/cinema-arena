@@ -9,6 +9,7 @@ import Finder from './routes/finder';
 import Home from './routes/home';
 import Root from './routes/root';
 import Saved from './routes/saved';
+import ShowDetails from './routes/show-details';
 import ShowForm from './routes/show-form';
 
 const router = createBrowserRouter([
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
       {
         path: 'saved',
         element: <Saved />,
+      },
+      {
+        path: '/saved/:id',
+        element: <ShowDetails />,
       },
       {
         path: '*',
