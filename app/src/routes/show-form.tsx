@@ -112,6 +112,17 @@ const ShowForm = () => {
                 }}
               />
             </div>
+
+            <div>
+              <label htmlFor="boxOffice">BoxOffice</label>
+              <input
+                type="text"
+                id="boxOffice"
+                onChange={(e) => {
+                  setShow({ ...show, BoxOffice: e.target.value });
+                }}
+              />
+            </div>
           </form>
           <Link to="/saved">
             <button
